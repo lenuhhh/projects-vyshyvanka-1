@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML-5</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- <nav class="nav nav--left js-nav">
+  <ul>
+    <li>
+      <a href="#"><span>Mens</span></a>
+    </li>
+    <li>
+      <a href="#"><span>Womens</span></a>
+    </li>
+    <li>
+      <a href="#" class="is-active"><span>Collections</span></a>
+    </li>
+  </ul>
+</nav> -->
+
+<figure class="logo">
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/58281/logo_copy_copy.svg">
+</figure>
+
+
+<div class="slider js-slider">
+  <div class="slider__inner js-slider__inner"></div>
+  
+  <div class="slide js-slide">
+    <div class="slide__content">
+    </div>
+    
+    <div class="slider__text js-slider__text">
+      <div class="slider__text-line js-slider__text-line"><div>небольшая</div></div>
+      <div class="slider__text-line js-slider__text-line"><div>подсказкаа</div></div>
+      <div class="slider__text-line js-slider__text-line"><div>о том как писать</div></div>
+      <div class="slider__text-line js-slider__text-line"><div>на HTML5</div></div>
+    </div>
+    
+  </div>
+  
+  <div class="slide js-slide">
+    <div class="slide__content">
+      <code>
+        <h3>Краткое обозначение "тэгов"</h3>
+        div - работает как родитель во вложении<br>
+        a - абзац, применяеться к переносу или добавлении каких-то "title"<br>
+        h1-h5 - применяеться как заглавие, к контексту или секции, параграфу<br>
+        p - параграф "Lorem" <br>
+        Lorem - текст рыба, используеться для заполнения параграфа, чтобы заблочить пустой контент<br>
+        ul - начало списка, в котором могут быть любые вложения детей "li"<br>
+        li - дочерний елемент который используеться для многогранности вложения<br>
+
+        <h3>Постройка базовой структуры для index.html + styles.css</h3>
+        !Doctype - строит начальную структуру для дальнейшего написания сайта<br>
+        link rel="stylesheet" href="./style.css" <br>
+        прописывание файла со стилем через "." - выводит на самое начало всех файлов,<br> чтобы найти нужный файл<br>
+
+        <h3>Подключение JS файла к index.html</h3>
+        (script-открытый / /script-закрытый тэг) src="./next.js" - подключение самого файла<br> к структуре сайта<br>
+        Рекомендуеться писать покдлючение JS файла, перед закрытием тэга "body"
+      </code>
+    </div>
+  </div>
+  
+
+  
+  <nav class="slider__nav js-slider__nav">
+    <div class="slider-bullet js-slider-bullet">
+      <span class="slider-bullet__text js-slider-bullet__text">01</span>
+      <span class="slider-bullet__line js-slider-bullet__line"></span>
+    </div>
+     <div class="slider-bullet js-slider-bullet">
+      <span class="slider-bullet__text js-slider-bullet__text">02</span>
+      <span class="slider-bullet__line js-slider-bullet__line"></span>
+    </div>
+  </nav>
+  
+  <div class="scroll js-scroll">Scroll</div>
+  
+</div>
+
+<div class="vert-text">
+  <span>
+    HTML-5<br>
+    X CSS
+  </span>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/99/three.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
